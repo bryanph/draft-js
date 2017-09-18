@@ -97,6 +97,11 @@ export type DraftEntityMapObject = {
  * via DraftEntity.get().
  */
 var DraftEntity:DraftEntityMapObject = {
+
+    getMap: function(): Map {
+        return instances
+    },
+
   /**
    * WARNING: This method will be deprecated soon!
    * Please use 'contentState.getLastCreatedEntityKey' instead.
