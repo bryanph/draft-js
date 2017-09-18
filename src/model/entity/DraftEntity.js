@@ -102,6 +102,10 @@ var DraftEntity:DraftEntityMapObject = {
         return instances
     },
 
+    clearMap: function() {
+        instances = Map()
+    },
+
   /**
    * WARNING: This method will be deprecated soon!
    * Please use 'contentState.getLastCreatedEntityKey' instead.
